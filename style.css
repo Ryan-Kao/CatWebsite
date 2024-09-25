@@ -11,6 +11,31 @@ html body {
     background-color: white;
 }
 
+nav {
+    margin-top: 5px;
+    font-family: "Playpen Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+nav a {
+    color: #333;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #B2AC88;
+    text-decoration: underline;
+}
+
+nav a.active {
+    color: #B2AC88;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
 body {
     font-family: "Playpen Sans", sans-serif;
     font-weight: 400;
@@ -62,36 +87,12 @@ ul li {
 
 section, article {
     max-width: 800px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 .section, section, article {
-    /* max-width: 100%; */
-    margin: 20px;
+    margin: 0 30px;
     padding: 10px;
-}
-
-nav {
-    margin-top: 5px;
-    font-family: "Playpen Sans", sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-}
-
-nav a {
-    color: #333;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav a:hover {
-    color: #007BFF;
-    text-decoration: underline;
-}
-
-.shift-right {
-    margin-left: 16px;
 }
 
 img {
@@ -101,17 +102,10 @@ img {
     margin: 10px 0;
 }
 
-/* footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #f0f0f0;
-    margin-top: 30px;
-} */
-
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #f0f0f0; /* Ensure background color is the desired shade */
+    background-color: #f0f0f0;
     position: relative;
-    box-shadow: 0px -1px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+    box-shadow: 0px -1px 10px rgba(0, 0, 0, 0.1);
 }
