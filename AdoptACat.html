@@ -1,5 +1,5 @@
 <!Doctype html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr"> <!-- Used the attribute dir to specify that the text goes from left to right since english is left to right-->
     <head> 
         <link rel="stylesheet" href="style.css">
         <title> Adopt A Cat - Comp484</title>
@@ -16,7 +16,7 @@
         </header>
         <hr>
 
-        <div class="section">
+        <div class="section"> <!-- Used a diff here to add a class to make it easier to refer to it in CSS and style the webpage -->
             <section id="adopt-a-cat">
                 <h2>Why Adopt a Cat?</h2>
                 <p>Adopting a cat from a shelter or rescue organization is a great way to give a loving home to an animal in need. Not only are you helping reduce the number of cats in shelters, but you are also saving a life. Here are some reasons to consider adopting a cat:</p>
@@ -24,6 +24,8 @@
                     <li>You'll save a life and make space for another animal in need.</li>
                     <li>Many shelters provide spay/neuter services and vaccinations.</li>
                     <li>Cats make wonderful, loyal companions and enrich your life.</li>
+                    <li>You might also get cute videos like these</li>
+                    <iframe width="353" height="300" src="https://www.youtube.com/embed/skGwEXU-kRU?playlist=skGwEXU-kRU&loop=1&autoplay=1&mute=1" title="Cats" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen sandbox="allow-scripts allow-same-origin allow-popups allow-orientation-lock"></iframe> <!-- Used the attribute sandbox here to add restrictions to what the youtube video can do-->
                 </ul>
 
                 <h2>Steps to Adopt a Cat</h2>
@@ -54,6 +56,13 @@
                     <li><a href="https://www.aspca.org" target="_blank">ASPCA</a></li>
                 </ul>
             </section>
+            <form>
+                <label for="name">Shelter Name:</label>
+                <input type="text" id="shelter-name" value="CAT SHELTER NEAR YOU" readonly>
+            
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone" value="WE LOVE CATS" readonly> <!-- Used the attribute readonly here to add fun texts where people can see but not edit-->
+            </form>
         </div>
         <hr>
         <footer>
