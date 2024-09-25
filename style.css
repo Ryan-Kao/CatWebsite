@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Playpen Sans", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px
+}
+
+header {
+    padding: 20px;
+    text-align: center;   
+}
+
+h1 {
+    font-family:"caveat", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70px;
+    margin-top: -20px
+}
+
+h2 {
+    margin: 10px;
+    font-size: 25px;
+}
+
+p {
+    margin: 15px
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+section {
+    max-width: 45%;
+}
+
+nav {
+    margin-top: 5px;
+    font-family: "Playpen Sans", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px
+}
+
+nav a {
+    color: #333;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}

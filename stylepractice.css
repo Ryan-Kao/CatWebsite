@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body {
+    background-color: white;
+}
+
+body {
+    font-family: "Playpen Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+    /* padding: 0 20px; */
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    font-family: "Caveat", cursive;
+    font-weight: 700;
+    font-size: 70px;
+    margin: 10px 0;
+}
+
+h2, h3, h4 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #444;
+}
+
+p {
+    margin: 15px 0;
+}
+
+ul {
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+section, article {
+    max-width: 800px;
+    margin-bottom: 30px;
+}
+
+.section, section, article {
+    /* max-width: 100%; */
+    margin: 20px;
+    padding: 10px;
+}
+
+nav {
+    margin-top: 5px;
+    font-family: "Playpen Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+nav a {
+    color: #333;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #007BFF;
+    text-decoration: underline;
+}
+
+.shift-right {
+    margin-left: 16px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+/* footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    margin-top: 30px;
+} */
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0; /* Ensure background color is the desired shade */
+    position: relative;
+    box-shadow: 0px -1px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}
